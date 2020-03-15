@@ -1,0 +1,56 @@
+Arguments: 
+  D:\node.exe C:\Users\1\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  D:\wx\go1.13.5.windows-amd64\go\bin;C:\ProgramData\Oracle\Java\javapath;"C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_31\bin;C:\Program Files\Java\jdk1.8.0_31\jre\bin";"C:\Program Files (x86)\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem";C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\MongoDB\Server\4.0\bin\;C:\Program Files\PuTTY\;D:\mongodb\bin\;C:\Program Files\Java\jdk1.8.0_31\jre\bin;D:\mysql\bin;C:\Program Files\Dart\dart-sdk\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\;C:\redis;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\flutter\bin;C:\Program Files (x86)\Microsoft VS Code\bin;D:\wx\go1.13.5.windows-amd64\go\bin;D:\Git\cmd;C:\Users\1\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\1\AppData\Local\Programs\Python\Python37-32\;C:\Users\1\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\1\AppData\Roaming\npm;C:\Users\1\AppData\Local\Microsoft\WindowsApps;D:\wx\Microsoft VS Code\bin;C:\Users\1\AppData\Local\BypassRuntm;D:\wx\goland\GoLand 2019.3.2\bin;
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  10.16.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\person\desktop\package.json: Unexpected token } in JSON at position 637
+      at JSON.parse (<anonymous>)
+      at C:\Users\1\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\1\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\1\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "roadhog server",
+      "build": "roadhog build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "dva": "^2.4.1",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0",
+      "roadhog": "^2.5.0-beta.4"
+    },
+    "devDependencies": {
+      "babel-plugin-dva-hmr": "^0.3.2",
+      "eslint": "^4.14.0",
+      "eslint-config-umi": "^0.1.1",
+      "eslint-plugin-flowtype": "^2.34.1",
+      "eslint-plugin-import": "^2.6.0",
+      "eslint-plugin-jsx-a11y": "^5.1.1",
+      "eslint-plugin-react": "^7.1.0",
+      "husky": "^0.12.0",
+      "redbox-react": "^1.4.3",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
