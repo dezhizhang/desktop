@@ -1,12 +1,12 @@
 import React from 'react';
 import { connect } from 'dva';
 import styles from './IndexPage.less';
-import { Buttton } from 'antd'
+import { Button } from "antd"
 
 function IndexPage() {
   return (
     <div className={styles.normal}>
-      <Buttton type="primary">button</Buttton>
+      <Button type="primary">button</Button>
     </div>
   );
 }

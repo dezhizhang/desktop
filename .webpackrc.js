@@ -2,8 +2,8 @@
 export default {
   "entry": 'src/index.js',
   "extraBabelPlugins": [
-    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": true}],
-  ],
+      ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": true }]
+    ],
   "alias": {
     "routes": `${__dirname}/src/routes/`,
     "models": `${__dirname}/src/models/`,
