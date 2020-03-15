@@ -4,7 +4,7 @@
   "scripts": {
     "start": "roadhog server",
     "build": "roadhog build",
-    "dev": "concurrently wait-on http://localhost:8000 && \"electron .\" \"npm run start\"",
+    "dev": "concurrently  \"wait-on http://localhost:8000 && electron .\" \"npm run start\"",
     "lint": "eslint --ext .js src test",
     "precommit": "npm run lint"
   },
