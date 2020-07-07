@@ -14,7 +14,7 @@
     "bootstrap": "^4.4.1",
     "concurrently": "^5.1.0",
     "dva": "^2.4.1",
-    "electron": "^5.0.7",
+    "electron": "^9.1.0",
     "electron-is-dev": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
